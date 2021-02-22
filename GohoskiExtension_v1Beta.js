@@ -26,8 +26,8 @@ class GohoskiExtension {
 		xhr.send();
 		xhr.onload = function() {
 		  if (xhr.status != 200) { // анализируем HTTP-статус ответа, если статус не 200, то произошла ошибка
-			console.log(`Ошибка ${xhr.status}: ${xhr.statusText}`); // Например, 404: Not Found
-		  } else { // если всё прошло гладко, выводим результат
+			return(`Error ${xhr.status}: ${xhr.statusText}`);
+		  } else {
 			return xhr.response;
 		  }
 		};
