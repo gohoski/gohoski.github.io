@@ -30,5 +30,8 @@ class GohoskiExtension {
 	screenshot_scene({}) {
 		window.open(document.getElementsByTagName("canvas")[0].toDataURL());
 	}
+	open_link_in_new_tab({link}) {
+		window.open(link,'_blank');
+	}
 }
 Scratch.extensions.register(new GohoskiExtension());
