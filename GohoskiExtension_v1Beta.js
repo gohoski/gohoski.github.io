@@ -8,7 +8,11 @@ class GohoskiExtension {
 					"opcode": "data_http", //This will be the ID code for the block
 					"blockType": "reporter", //This can either be Boolean, reporter, command, or hat
 					"text": "data from url: [url]", //This is the block text, and how it will display in the Scratch interface
-					"arguments": { //Arguments are the input fields in the block. In the block text, place arguments in square brackets with the corresponding ID
+					"arguments": {
+						"url": {
+							"type": "string",
+							"defaultValue": "scratch.mit.edu"
+						}
 					}
 				}
 			],
