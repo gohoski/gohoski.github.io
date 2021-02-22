@@ -25,14 +25,14 @@ class GohoskiExtension {
 		xhr.open('GET', url);
 		xhr.send();
 		xhr.onload = function() {
-		  if (xhr.status != 200) { // анализируем HTTP-статус ответа, если статус не 200, то произошла ошибка
-			return(`Error ${xhr.status}: ${xhr.statusText}`);
-		  } else {
+			if (xhr.status != 200) { // анализируем HTTP-статус ответа, если статус не 200, то произошла ошибка
+			return `Error ${xhr.status}: ${xhr.statusText}`;
+		} else {
 			return xhr.response;
-		  }
+		}
 		};
 		xhr.onerror = function() {
-		  console.log("Запрос не удался");
+			return "Request failed";
 		};
 	}
 }
