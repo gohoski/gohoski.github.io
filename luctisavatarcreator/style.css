@@ -1,0 +1,79 @@
+body {
+	background-color:#2f3136;
+	font-family:Arial;
+	color:white;
+	margin:0px;
+	font-weight:bold;
+	
+}
+
+main {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:1109px;
+	min-width:1109px;
+}
+
+header {
+	background-color:#6229ff;
+}
+
+.flexible {
+	display:flex;
+}
+
+.preview {
+	background-color:white;
+	border:3px solid black;
+	width:300px;
+	height:300px;
+	z-index:-10000;
+}
+
+.overlay {
+	position:absolute;
+	/*top:0px;
+	left:0px;*/
+}
+
+.selector1, .selector2, .selector3, .selector4 {
+	margin-right:10px;
+	margin-left:10px;
+}
+
+#lineart_head {
+	z-index:2;
+}
+
+#colour_pattern1 {
+	z-index:1;
+}
+
+#colour_pattern2 {
+	z-index:0;
+}
+
+#colour_pattern3 {
+	z-index:-1;
+}
+
+#colour_pattern4 {
+	z-index:-2;
+}
+
+#colour_head {
+	z-index:-3;
+}
+
+#bg {
+	z-index:-10;
+}
+
+#colour_eyes, #colour_horns {
+	z-index:3;
+}
+
+#lineart_eyes, #lineart_horns, #lineart_mouth {
+	z-index:5;
+}
