@@ -7,10 +7,11 @@ html {
 body {
 	background-color: #1b1b1b;
 	width: 70%;
-	margin: 15%;
+	margin: 11.5%;
 	border-radius: 15px;
 	font-family: "Product Sans";
 	font-size: 26px;
+	padding: 3.5%;
 }
 
 footer {
