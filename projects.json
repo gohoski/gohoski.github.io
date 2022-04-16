@@ -9,24 +9,24 @@
     "name": "Is Hamsterball 2 out yet?",
     "description": "Shows is Hamster Ball 2 out yet. It actually fetches the data from the Raptisoft servers, so that's cool.",
     "url": "http://ishb2outyet.ga",
-    "img": "http://free.pagepeeker.com/v2/thumbs.php?size=x&url=http%3A%2F%2Fishb2outyet.ga"
+    "img": "https://webshot.deam.io/http:/ishb2outyet.ga/?delay=300&width=600&height=480"
   },
   {
     "name": "Симпл-димпл поп-ит сквиш",
     "description": "[RUSSIAN] Мемный сайт.",
     "url": "http://gohoski.github.io/SimplDimplPopItSkvish",
-    "img": "http://free.pagepeeker.com/v2/thumbs.php?size=x&url=http%3A%2F%2Fgohoski.github.io%2FSimplDimplPopItSkvish"
+    "img": "https://webshot.deam.io/http:/gohoski.github.io/SimplDimplPopItSkvish/?delay=300&width=600&height=480"
   },
   {
     "name": "DiscordMsgPlus",
     "description": "Messenger Plus! script for communicating with the Discord HTTP API v9. Currently in early dev state.",
     "url": "https://github.com/gohoski/DiscordMsgPlus",
-    "img": "http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Fgithub.com%2Fgohoski%2FDiscordMsgPlus"
+    "img": "https://webshot.deam.io/https:/github.com/gohoski/DiscordMsgPlus/?delay=300&width=600&height=480"
   },
   {
     "name": "VMAnarchy Discord Bot",
     "description": "A Discord bot for VMAnarchy.",
     "url": "https://github.com/VMAnarchyRU/DiscordBot",
-    "img": "http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Fgithub.com%2FVMAnarchyRU%2FDiscordBot"
+    "img": "https://webshot.deam.io/https:/github.com/VMAnarchyRU/DiscordBot/?delay=300&width=600&height=480"
   }
 ]
