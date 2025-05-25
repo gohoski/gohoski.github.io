@@ -1,0 +1,1 @@
+document.querySelector('span.el-checkbox__label').innerText='я сосу член'
